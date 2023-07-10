@@ -1,39 +1,75 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+SliverListWatcher
+The sliver_list_watcher package provides a SliverListWatcher widget for Flutter that allows you to create a sliver list with additional features such as infinite scrolling and loading indicators.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+Features
+Infinite scrolling: Load more items as the user scrolls to the end of the list.
+Loading indicator: Show a loading indicator at the end of the list while new items are being loaded.
+Customizable: Customize the appearance and behavior of the list using callbacks and widget properties.
+Supports sliver lists: Integrate seamlessly with the existing sliver list infrastructure in Flutter.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+  Usage :
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+1- Add the sliver_list_watcher package to your pubspec.yaml file:
+dependencies:
+  sliver_list_watcher: ^1.0.0
 
-## Features
+2- Import the package in your Dart file:
+import 'package:sliver_list_watcher/sliver_list_watcher.dart';
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+3- Use the SliverListWatcher widget in your Flutter app, providing the necessary callbacks and widget properties:
+SliverListWatcher(
+  onScrollEnd: () {
+    // Load more items when the user scrolls to the end
+  },
+  onInit: () {
+    // Perform initialization tasks
+  },
+  itemBuilder: (context, index) {
+    // Build the individual item for the list
+    return MyListItem();
+  },
+  isLoading: false, // Set to true to show a loading indicator
+  itemCount: 10, // Total number of items in the list
+  topWidgets: [
+    // Additional widgets to be shown at the top of the list
+    MyHeaderWidget(),
+  ],
+  loadingWidget: MyLoadingIndicator(), // Custom loading indicator widget
+)
+Example
+Here's an example of how to use the SliverListWatcher widget:
 
-## Getting started
+class MyListPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('My List'),
+      ),
+      body: SliverListWatcher(
+        onScrollEnd: () {
+          // Load more items when the user scrolls to the end
+          // e.g., fetch data from an API
+        },
+        onInit: () {
+          // Perform initialization tasks
+        },
+        itemBuilder: (context, index) {
+          // Build the individual item for the list
+          return MyListItem(index: index);
+        },
+        isLoading: false, // Set to true to show a loading indicator
+        itemCount: 20, // Total number of items in the list
+        topWidgets: [
+          // Additional widgets to be shown at the top of the list
+          MyHeaderWidget(),
+        ],
+        loadingWidget: MyLoadingIndicator(), // Custom loading indicator widget
+      ),
+    );
+  }
+}
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Related Terms
+Sliver: A portion of a scrollable area in Flutter that can be scrolled independently.
+Infinite Scrolling: A UI pattern where new content is loaded automatically as the user scrolls to the end of a list or page.

@@ -1021,3 +1021,87 @@ NO_PROXY: undefined
 [12:59:51 PM] [General] [Info] Checking 1 projects for supported platforms
 [12:59:51 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
 [1:00:09 PM] [General] [Info] Returning cached results for project search
+[1:08:57 PM] [General] [Info] Took 16ms to search for projects (5 levels)
+[1:08:57 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[1:08:57 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:08:57 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:09:26 PM] [General] [Info] Returning cached results for project search
+[1:09:26 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:09:26 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:09:29 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:12:03 PM] [General] [Info] Returning cached results for project search
+[1:12:03 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:12:03 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:12:41 PM] [General] [Info] Returning cached results for project search
+[1:12:41 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:12:41 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:13:30 PM] [General] [Info] Returning cached results for project search
+[1:13:30 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:13:30 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:13:42 PM] [General] [Info] Returning cached results for project search
+[1:13:42 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:13:42 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:13:59 PM] [General] [Info] Took 15ms to search for projects (5 levels)
+[1:13:59 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[1:13:59 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:13:59 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:14:02 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:14:21 PM] [General] [Info] Returning cached results for project search
+[1:14:21 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:14:21 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:14:25 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:14:51 PM] [General] [Info] Returning cached results for project search
+[1:15:02 PM] [General] [Info] Returning cached results for project search
+[1:16:41 PM] [General] [Info] Returning cached results for project search
+[1:16:41 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:16:41 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:16:45 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:16:57 PM] [General] [Info] Returning cached results for project search
+[1:16:57 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:16:57 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:17:00 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:17:15 PM] [General] [Info] Returning cached results for project search
+[1:17:15 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:17:15 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:17:18 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:21:12 PM] [General] [Info] Took 17ms to search for projects (5 levels)
+[1:21:12 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[1:22:06 PM] [General] [Info] Returning cached results for project search
+[1:22:06 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:22:06 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:22:32 PM] [General] [Info] Returning cached results for project search
+[1:22:32 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:22:32 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:22:45 PM] [General] [Info] Returning cached results for project search
+[1:22:45 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:22:45 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:22:55 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:24:33 PM] [General] [Info] Returning cached results for project search
+[1:24:33 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:24:33 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:29:04 PM] [General] [Info] Took 19ms to search for projects (5 levels)
+[1:29:04 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[1:30:00 PM] [General] [Info] Returning cached results for project search
+[1:30:00 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:30:00 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:30:40 PM] [General] [Info] Returning cached results for project search
+[1:30:40 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:30:40 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:31:10 PM] [General] [Info] Returning cached results for project search
+[1:31:10 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:31:10 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:31:14 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:32:14 PM] [General] [Info] Returning cached results for project search
+[1:32:14 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:32:14 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:32:18 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[1:34:26 PM] [General] [Info] Took 14ms to search for projects (5 levels)
+[1:34:26 PM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[1:34:26 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:34:26 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:34:41 PM] [General] [Info] Returning cached results for project search
+[1:34:41 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:34:41 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android
+[1:35:07 PM] [General] [Info] Returning cached results for project search
+[1:35:07 PM] [General] [Info] Checking 1 projects for supported platforms
+[1:35:07 PM] [General] [Info] Supported platforms for the workspace are linux, macos, ios, android

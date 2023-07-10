@@ -63,3 +63,161 @@ Content-Type: application/vscode-jsonrpc; charset=utf-8
 [12:59:49 PM] [Analyzer] [Info] <== Content-Length: 93
 Content-Type: application/vscode-jsonrpc; charset=utf-8
 [12:59:49 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[1:00:30 PM] [Analyzer] [Info] <== Content-Length: 207
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:00:30 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/.git/objects/8c/09c134bbd434ea8e800197a234319ad510cbeb"}}
+[1:00:30 PM] [Analyzer] [Info] <== Content-Length: 207
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:00:30 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/.git/objects/5f/0050cd026fead84bc945c383d2c6242ca2a204"}}
+[1:02:12 PM] [Analyzer] [Info] <== Content-Length: 180
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:02:12 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/.git/logs/refs/heads/master"}}
+[1:02:12 PM] [Analyzer] [Info] <== Content-Length: 175
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/.git/refs/heads/master"}}
+[1:14:51 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:14:51 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}
+[1:14:51 PM] [Analyzer] [Info] <== Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:14:51 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:14:51 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}
+[1:14:51 PM] [Analyzer] [Info] <== Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":4,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[1:14:51 PM] [Analyzer] [Info] ==> Content-Length: 72
+[1:14:51 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":4,"result":null,"clientRequestTime":1688984091714}
+[1:14:51 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:14:51 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[1:14:54 PM] [Analyzer] [Info] <== Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:14:54 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}
+[1:14:55 PM] [Analyzer] [Info] <== Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:14:55 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:14:55 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[1:15:01 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:15:01 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:15:01 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:15:01 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:15:02 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}
+[1:15:02 PM] [Analyzer] [Info] <== Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:15:02 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":5,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}
+[1:15:02 PM] [Analyzer] [Info] ==> Content-Length: 72
+[1:15:02 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":5,"result":null,"clientRequestTime":1688984102099}
+[1:15:02 PM] [Analyzer] [Info] <== Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:15:02 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:15:02 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[1:15:02 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:21:00 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:21:00 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:21:00 PM] [Analyzer] [Info] <== {"id":6,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}
+[1:21:00 PM] [Analyzer] [Info] ==> Content-Length: 72
+[1:21:00 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":6,"result":null,"clientRequestTime":1688984460363}
+[1:21:00 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}
+[1:21:01 PM] [Analyzer] [Info] <== Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:21:01 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}
+[1:21:01 PM] [Analyzer] [Info] <== Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:21:01 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:21:01 PM] [Analyzer] [Info] <== Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
+[1:28:47 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:47 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:47 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:28:48 PM] [Analyzer] [Info] <== Content-Length: 174
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:48 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/analysis_options.yaml"}}Content-Length: 165
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:48 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/pubspec.yaml"}}Content-Length: 97
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"id":7,"jsonrpc":"2.0","method":"window/workDoneProgress/create","params":{"token":"ANALYZING"}}Content-Length: 187
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/test/sliver_list_watcher_test.dart"}}
+[1:28:48 PM] [Analyzer] [Info] <== Content-Length: 181
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:48 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///Users/macbookshop/Downloads/sliver_list_watcher/lib/sliver_list_watcher.dart"}}
+[1:28:48 PM] [Analyzer] [Info] ==> Content-Length: 72
+[1:28:48 PM] [Analyzer] [Info] ==> {"jsonrpc":"2.0","id":7,"result":null,"clientRequestTime":1688984928846}
+[1:28:48 PM] [Analyzer] [Info] <== Content-Length: 118
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:48 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"begin","title":"Analyzing…"}}}Content-Length: 93
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[1:28:48 PM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"$/progress","params":{"token":"ANALYZING","value":{"kind":"end"}}}
