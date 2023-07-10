@@ -1,0 +1,31 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.69.20230706
+Flutter extension: 3.68.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.80.0
+Platform: mac
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Mon Jul 10 2023 [12:59:45 GMT+0300 (Arabian Standard Time)] Log file started
+[12:59:45 PM] [FlutterDaemon] [Info] Spawning /Users/macbookshop/Documents/development/flutter/bin/flutter with args ["daemon"]
+[12:59:45 PM] [FlutterDaemon] [Info] ..  in /Users/macbookshop/Documents/development/flutter
+[12:59:45 PM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[12:59:45 PM] [FlutterDaemon] [Info]     PID: 1439
+[12:59:46 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":1469}}]
+[12:59:46 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
+[12:59:46 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[12:59:46 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[12:59:47 PM] [FlutterDaemon] [Info] <== [{"id":"1"}]
+[12:59:47 PM] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"},{"id":"Pixel_4_XL_API_33","name":"Pixel 4 XL API 33","category":"mobile","platformType":"android"}]}]
+[12:59:51 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"00008030-001815360284802E","name":"Hama amanj","platform":"ios","emulator":false,"category":"mobile","platformType":"ios","ephemeral":true,"emulatorId":null,"sdk":"iOS 16.5.1 20F75","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":false}}}]
+[12:59:51 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"/Users/macbookshop/Downloads/sliver_list_watcher"}}]
+[12:59:51 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","ios","android"]}}]
+[12:59:51 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"macos","name":"macOS","platform":"darwin","emulator":false,"category":"desktop","platformType":"macos","ephemeral":false,"emulatorId":null,"sdk":"macOS 13.3.1 22E772610a darwin-x64","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[12:59:54 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 114.0.5735.198","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
