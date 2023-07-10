@@ -1,75 +1,18 @@
-SliverListWatcher
-The sliver_list_watcher package provides a SliverListWatcher widget for Flutter that allows you to create a sliver list with additional features such as infinite scrolling and loading indicators.
+SliverListWatcher is a powerful Flutter package that provides a custom widget for observing scroll events in a sliver list. With SliverListWatcher, you can easily create scrollable lists with customizable features such as top widgets, item builders, scroll end callbacks, and more.
 
-Features
-Infinite scrolling: Load more items as the user scrolls to the end of the list.
-Loading indicator: Show a loading indicator at the end of the list while new items are being loaded.
-Customizable: Customize the appearance and behavior of the list using callbacks and widget properties.
-Supports sliver lists: Integrate seamlessly with the existing sliver list infrastructure in Flutter.
+This package is designed to simplify the process of implementing scrollable lists in your Flutter applications. Whether you're building a simple list view or a complex scrollable UI, SliverListWatcher can help you achieve smooth and efficient scrolling performance.
 
-  Usage :
+Key Features:
+- Observe scroll events in a sliver list
+- Customize top widgets and item builders
+- Handle scroll end events
+- Preserve scroll position automatically
+- Designed for Flutter SDK version 2.15.0 and above
 
-1- Add the sliver_list_watcher package to your pubspec.yaml file:
-dependencies:
-  sliver_list_watcher: ^1.0.0
+With SliverListWatcher, you can create dynamic and interactive lists that respond to user scroll actions. It provides a flexible and efficient solution for managing scrollable content in your Flutter applications.
 
-2- Import the package in your Dart file:
-import 'package:sliver_list_watcher/sliver_list_watcher.dart';
+To get started with SliverListWatcher, simply add it to your CustomScrollView and configure its parameters to fit your specific use case. For more details, check out the API documentation and examples in this repository.
 
-3- Use the SliverListWatcher widget in your Flutter app, providing the necessary callbacks and widget properties:
-SliverListWatcher(
-  onScrollEnd: () {
-    // Load more items when the user scrolls to the end
-  },
-  onInit: () {
-    // Perform initialization tasks
-  },
-  itemBuilder: (context, index) {
-    // Build the individual item for the list
-    return MyListItem();
-  },
-  isLoading: false, // Set to true to show a loading indicator
-  itemCount: 10, // Total number of items in the list
-  topWidgets: [
-    // Additional widgets to be shown at the top of the list
-    MyHeaderWidget(),
-  ],
-  loadingWidget: MyLoadingIndicator(), // Custom loading indicator widget
-)
-Example
-Here's an example of how to use the SliverListWatcher widget:
+Contributions and feedback are welcome! If you encounter any issues, have feature requests, or want to contribute to the project, please open an issue or submit a pull request on GitHub.
 
-class MyListPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('My List'),
-      ),
-      body: SliverListWatcher(
-        onScrollEnd: () {
-          // Load more items when the user scrolls to the end
-          // e.g., fetch data from an API
-        },
-        onInit: () {
-          // Perform initialization tasks
-        },
-        itemBuilder: (context, index) {
-          // Build the individual item for the list
-          return MyListItem(index: index);
-        },
-        isLoading: false, // Set to true to show a loading indicator
-        itemCount: 20, // Total number of items in the list
-        topWidgets: [
-          // Additional widgets to be shown at the top of the list
-          MyHeaderWidget(),
-        ],
-        loadingWidget: MyLoadingIndicator(), // Custom loading indicator widget
-      ),
-    );
-  }
-}
-
-Related Terms
-Sliver: A portion of a scrollable area in Flutter that can be scrolled independently.
-Infinite Scrolling: A UI pattern where new content is loaded automatically as the user scrolls to the end of a list or page.
+Get started with SliverListWatcher today and enhance your Flutter apps with smooth and responsive scrollable lists!
