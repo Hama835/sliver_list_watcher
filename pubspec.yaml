@@ -1,5 +1,5 @@
 name: sliver_list_watcher
-version: 1.0.0
+version: 1.0.4
 description: A custom widget for observing scroll events in a sliver list.
 homepage: https://github.com/Hama835/sliver_list_watcher
 repository: https://github.com/Hama835/sliver_list_watcher.git

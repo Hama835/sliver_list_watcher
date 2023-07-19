@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.0.4
 
 * Initial release of the SliverListWatcher package.
 * Added `SliverListWatcher` widget for observing scroll events in a sliver list.
