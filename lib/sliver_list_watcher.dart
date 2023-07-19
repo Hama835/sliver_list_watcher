@@ -2,21 +2,32 @@ library sliver_list_watcher;
 
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class SliverListWatcher extends StatefulWidget {
   final VoidCallback onScrollEnd;
   final VoidCallback? onInit;
-  final Widget Function(BuildContext, int) itemBuilder;
+  final Widget Function(BuildContext context, int index) itemBuilder;
   final bool isLoading;
   final int? itemCount;
   final List<Widget> topWidgets;
   final Widget? loadingWidget;
+  final Future<void> Function()? onRefresh;
+  ScrollController? scrollController;
+  double refreshDisplacement;
+  Color? refreshIndicatorColor;
+  Color? refreshIndicatorBackgroundColor;
 
-  const SliverListWatcher({
+  SliverListWatcher({
     Key? key,
     this.itemCount,
+    this.scrollController,
     required this.onScrollEnd,
     this.topWidgets = const [],
     this.loadingWidget,
+    this.onRefresh,
+    this.refreshDisplacement = 10,
+    this.refreshIndicatorBackgroundColor,
+    this.refreshIndicatorColor,
     required this.itemBuilder,
     this.isLoading = false,
     this.onInit,
@@ -28,26 +39,25 @@ class SliverListWatcher extends StatefulWidget {
 
 class _SliverListWatcherState extends State<SliverListWatcher>
     with AutomaticKeepAliveClientMixin {
-  final ScrollController _scrollController = ScrollController();
-
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      widget.scrollController ??= ScrollController();
       widget.onInit?.call();
-      _scrollController.addListener(_onScroll);
+      widget.scrollController!.addListener(_onScroll);
     });
   }
 
   @override
   void dispose() {
-    _scrollController.dispose();
+    widget.scrollController!.dispose();
     super.dispose();
   }
 
   void _onScroll() {
-    if (_scrollController.position.pixels ==
-        _scrollController.position.maxScrollExtent) {
+    if (widget.scrollController!.position.pixels ==
+        widget.scrollController!.position.maxScrollExtent) {
       if (!widget.isLoading) {
         widget.onScrollEnd();
       }
@@ -64,25 +74,32 @@ class _SliverListWatcherState extends State<SliverListWatcher>
       children: widget.topWidgets,
     );
 
-    return CustomScrollView(
-      controller: _scrollController,
-      slivers: <Widget>[
-        SliverToBoxAdapter(
-          key: const ValueKey('topWidgets'),
-          child: topWidgetsColumn,
-        ),
-        SliverList(
-          delegate: SliverChildBuilderDelegate(
-            widget.itemBuilder,
-            childCount: widget.itemCount ?? 0,
-          ),
-        ),
-        if (widget.isLoading)
+    return RefreshIndicator.adaptive(
+      onRefresh: widget.onRefresh ?? () => Future.delayed(Duration.zero),
+      notificationPredicate: (notification) => widget.onRefresh != null,
+      color: widget.refreshIndicatorColor,
+      backgroundColor: widget.refreshIndicatorBackgroundColor,
+      displacement: widget.refreshDisplacement,
+      child: CustomScrollView(
+        controller: widget.scrollController,
+        slivers: <Widget>[
           SliverToBoxAdapter(
-            key: const ValueKey('loadingWidget'),
-            child: _buildDefaultLoading(),
+            key: const ValueKey('topWidgets'),
+            child: topWidgetsColumn,
           ),
-      ],
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              widget.itemBuilder,
+              childCount: widget.itemCount ?? 0,
+            ),
+          ),
+          if (widget.isLoading)
+            SliverToBoxAdapter(
+              key: const ValueKey('loadingWidget'),
+              child: _buildDefaultLoading(),
+            ),
+        ],
+      ),
     );
   }
 
